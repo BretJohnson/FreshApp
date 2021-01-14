@@ -14,7 +14,7 @@
         
         <yummy:PancakeView x:Name="menuContainer"
                            BackgroundColor="#000"
-                           HasShadow="{OnPlatform Android=False, iOS=True}"
+                           Shadow="{OnPlatform Android=False, iOS=True}"
                            WidthRequest="80">
             <yummy:PancakeView.Behaviors>
                 <behaviors:ColorChangeBehavior Color="{Binding CategorySelected.Color, Source={x:Reference sideBar}}" />
